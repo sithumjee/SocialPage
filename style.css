@@ -156,5 +156,10 @@ ul li {
 
 .imp-links a img {
   width: 15px;
-  margin-right: 10px;
+  margin-right: 20px;
+}
+
+.imp-links a:last-child {
+  color: #1876f2;
+  padding-left: 5px;
 }
