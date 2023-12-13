@@ -31,13 +31,11 @@
             <img src="images/search.png" alt="search" class="search" />
         </div>
 
-        <div class="profile online">
-            <img src="images/profile.png"   " />
-            
-        
+        <div class="profile online" onclick="settingsMenuToggle()" >
+            <img src="images/profile.png"   />
       </div>
         <!-- ----------Settings-menu------------------------------ -->
-      <div class="settings-menu">
+      <div class="settings-menu" id="updownmenu">
         <div class="settingd-menu-inner">
           <div class="user-profile">
             <img src="images/profile.png">
@@ -61,7 +59,22 @@
 
           <div class="settings-links">
             <img src="images/settings.png" class="settings-icon">
+            <a href="#">Help and Support <img src="images/arrow.png
+              width:10px"></a>
+          </div>
+          <div class="settings-links">
+            <img src="images/help.png" class="settings-icon">
             <a href="#">Settings and Privacy <img src="images/arrow.png
+              width:10px"></a>
+          </div>
+          <div class="settings-links">
+            <img src="images/display.png" class="settings-icon">
+            <a href="#">Display and Accessibility <img src="images/arrow.png
+              width:10px"></a>
+          </div>
+          <div class="settings-links">
+            <img src="images/logout.png" class="settings-icon">
+            <a href="#">Logout <img src="images/arrow.png
               width:10px"></a>
           </div>
         
@@ -424,5 +437,8 @@
     <div class="footer">
       <p>Copyright 2021 - Sithum Jeevantha SocialPage</p>
     </div>
+
+
+    <script src="app.js"></script>
   </body>
 </html>
