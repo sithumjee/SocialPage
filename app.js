@@ -7,3 +7,7 @@ function settingsMenuToggle() {
 function changePage() {
   window.location.href = "newpage.html";
 }
+
+function changePageProfile() {
+  window.location.href = "profile/profile.html";
+}
