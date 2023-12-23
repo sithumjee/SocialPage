@@ -16,7 +16,7 @@ a {
 
 .main {
   width: 80%;
-  height: 200vh;
+  height: 260vh;
   background-color: white;
   margin-right: 20px;
   margin-left: 20px;
@@ -36,7 +36,7 @@ a {
   border: none;
   border-bottom: 1px solid rgb(188, 186, 186);
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-  background-color: antiquewhite;
+  background-color: rgb(224, 237, 238);
   border-radius: 10px;
 }
 
@@ -63,4 +63,43 @@ a {
 
 .profile-name p em {
   font-size: 14px;
+}
+
+/* ------------------------------------------------------ */
+
+.contentleft {
+  padding-left: 10px;
+}
+
+.contentleft ul {
+  list-style: none;
+  padding: 10px;
+}
+
+.contentleft ul li {
+  width: 800px;
+  padding: 10px;
+  padding-left: 40px;
+  margin: 10px;
+  border: none;
+  border-bottom: 1px solid rgb(188, 186, 186);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.contentleft ul li ul li {
+  background-color: rgb(232, 226, 226);
+  margin: 8px;
+  cursor: pointer;
+  width: 450px;
+}
+
+.contentleft ul li p {
+  margin-top: 5px;
+  color: rgb(49, 47, 47);
+}
+
+.contentleft .skills p ul li {
+  width: 100px;
 }
