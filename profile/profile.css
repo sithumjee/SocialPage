@@ -1,0 +1,10 @@
+.navleft {
+  width: 500px;
+  padding-left: 10px;
+}
+
+.navright {
+  width: 600px;
+  padding-right: 10px;
+  justify-content: space-between;
+}

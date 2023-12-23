@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="profile.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="navleft">
+        <img src="../images/profile/back-button.svg" onclick="changePage()" />
+        <div class="logo">
+          <img src="../images/logo.png" />
+        </div>
+
+        <ul>
+          <li><img src="../images/notification-bell.png" /></li>
+          <li><img src="../images/mailbox.png" /></li>
+          <li><img src="../images/video.png" onclick="changePage()" /></li>
+        </ul>
+      </div>
+
+      <div class="navright">
+        <div class="search">
+          <input type="text" placeholder="Search" />
+          <img src="../images/search.png" alt="search" class="search" />
+        </div>
+        <div class="profile online" onclick="settingsMenuToggle()">
+          <img src="../images/profile.png" />
+        </div>
+      </div>
+    </nav>
+
+    <!-- ------------------------------------------------------------------------------------------------------- -->
+
+    <div class="container">
+      <!-- ------------------left-sidebar---------------------------------------->
+      <div class="left-sidebar">
+        <div class="imp-links">
+          <a href="#"><img src="../images/news.png" />Latest News</a>
+          <a href="#"><img src="../images/friends.png" />Friends</a>
+          <a href="#"><img src="../images/group.png" />Groups</a>
+          <a href="#"><img src="../images/market.png" />Market Places</a>
+          <a href="#"><img src="../images/watch.png" />Watch</a>
+          <a href="#">see more</a>
+        </div>
+
+        <div class="shortcut-links">
+          <p>Your Shortcuts</p>
+          <a href="#"
+            ><img src="../images/web developers.jpg" />Web Developers</a
+          >
+          <a href="#"
+            ><img src="../images/Web Design Course.jpg" />Web Design Course</a
+          >
+          <a href="#"
+            ><img src="../images/Full Stack Development.jpg" />Full Stack
+            Development</a
+          >
+          <a href="#"
+            ><img src="../images/Website Experts.jpg" />Website Experts</a
+          >
+        </div>
+      </div>
+
+      <!-- ------------------main-content---------------------------------------->
+    </div>
+
+    <script src="profile.js"></script>
+  </body>
+</html>
