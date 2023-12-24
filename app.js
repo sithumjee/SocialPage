@@ -7,3 +7,7 @@ function settingsMenuToggle() {
 function changePageProfile() {
   window.location.href = "profile/profile.html";
 }
+
+function changePageVideo() {
+  window.location.href = "V-player/index.html";
+}
